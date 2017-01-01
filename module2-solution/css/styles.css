@@ -29,11 +29,8 @@ p {
 	font-size: 125%;
 	border: 1px solid black;
 	width: 25%;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	float:right;
 	text-align:center;
-	
 }
 
 .entreeDescription {
