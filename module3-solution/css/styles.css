@@ -1,14 +1,14 @@
 body {
 	font-size: 16px;
 	color: #123456;
-	background-color: #111111;
+	background-color: #F2E291;
 	font-family: 'Dosis' sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
 
-	background-color: #23df23;
+	background-color: #73322C;
 	border-radius:0;
 	border:0;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-brand h1 {
-	color: #ffffff;
+	color: #291210;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -34,25 +34,33 @@ body {
 
 #nav-list {
 	margin-top: 10px;
-	background-color: #991245;
+	background-color: #A6583C;
 }
 
 #nav-list li {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 5px;
+	color: #291210;
 
 }
 
 #main-content h2{
 	text-transform:uppercase;
-	color: #ffffff;
+	color: #291210;
+	font-weight: bold;
 }
 
 #menu-item {
+	border-radius: 10px;
+	border-width: 10px;
+	border-color: #111111;
 	padding: 25px;
-	height: 1000px;
-	background-color: #234455;
-	color: #dddddd;
+	background-color: #D99F6C;
+	color: #291210;
+}
+
+#menu-item h3 {
+	font-weight:bold;
 }
 
