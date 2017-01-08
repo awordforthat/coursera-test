@@ -5,20 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+
+    <title>Module 3 Solution - Johns Hopkins Web Technologies Course</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto" rel="stylesheet">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default"> 
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand"> 
+              <h1>Restaurant name</h1>
+            </div>
+          
+
+          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class=visible-xs>Chicken</li>
+               <li class=visible-xs>Beef</li>
+                <li class=visible-xs>Sushi</li>
+          </ul>
+        </div
+
+
+        </div>
+    </nav>
+  </header>
+
+  <div id="main-content" class="container">
+    <h2 class="text-center">Our menu</h2>
+
+    <div id="menu-item" class="col-xs-12">
+
+      <h3 class="text-center">Food item</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus pellentesque massa non suscipit. Proin mollis dolor at viverra accumsan. Cras condimentum consectetur nunc a ultrices. Nullam vulputate vel est sed pulvinar. Nam rutrum pulvinar justo ac suscipit. Ut sed magna erat. Integer id volutpat lacus. Etiam iaculis posuere orci et vestibulum. Quisque sem arcu, ultricies a molestie vitae, ullamcorper in sapien.</p>
+
+      <p>Nam tempus leo sem. Duis nec interdum erat. Nunc in ultrices est. In ac venenatis urna. Integer faucibus eros ipsum, in porttitor eros elementum consequat. Praesent porttitor pellentesque ipsum, a vehicula augue varius rhoncus. Donec tristique sed leo in molestie. Phasellus ornare ligula nec magna iaculis efficitur. Praesent rutrum euismod eros nec convallis.</p>
+
+      <p>Nullam ac tincidunt nulla, congue ultrices eros. Nullam viverra rutrum faucibus. Integer vel sapien id elit tincidunt varius. Praesent non tellus nec eros gravida efficitur sed id velit. Aliquam nisl nunc, vulputate non eleifend vel, mollis non risus. Nullam vehicula condimentum erat rhoncus placerat. Maecenas auctor sapien et accumsan eleifend. Etiam luctus, massa sed ultricies auctor, magna velit varius turpis, nec facilisis velit magna quis sem. Curabitur ut ligula varius felis molestie iaculis at a mauris. Fusce lectus leo, aliquet eget vehicula vitae, luctus eu elit. Nulla ex neque, lacinia vel dapibus at, consequat malesuada est. Nulla finibus tempus sapien.</p>
+
+      <p>Morbi sed est quis magna placerat congue non eu quam. Fusce nec odio sollicitudin, volutpat eros vitae, scelerisque mi. Morbi in ante rhoncus lorem elementum luctus. Nullam quis velit vulputate, lobortis orci consectetur, varius nisl. Nam placerat ligula ac augue aliquet porta. Donec scelerisque, dui tristique elementum faucibus, sapien elit laoreet nunc, at sollicitudin elit metus vitae massa. Suspendisse metus magna, gravida nec tellus sit amet, gravida aliquet purus. Mauris a metus facilisis, iaculis turpis sit amet, pulvinar nulla.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus pellentesque massa non suscipit. Proin mollis dolor at viverra accumsan. Cras condimentum consectetur nunc a ultrices. Nullam vulputate vel est sed pulvinar. Nam rutrum pulvinar justo ac suscipit. Ut sed magna erat. Integer id volutpat lacus. Etiam iaculis posuere orci et vestibulum. Quisque sem arcu, ultricies a molestie vitae, ullamcorper in sapien.</p>
+
+      <p>Fusce aliquet mauris arcu, nec porta augue interdum ac. Pellentesque velit justo, fringilla id massa nec, blandit eleifend nulla. Vivamus sit amet libero id ipsum feugiat venenatis vel sed mi. Vestibulum blandit felis ac mi molestie imperdiet. Nullam justo neque, iaculis sit amet pellentesque sed, molestie nec magna. Quisque placerat erat sit amet facilisis facilisis. Phasellus in ultricies ex. Nunc finibus a diam et interdum. Sed iaculis sagittis nulla, quis feugiat ante mollis at. Duis auctor vitae arcu imperdiet imperdiet.</p>
+    </div>
+  </div>
+
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

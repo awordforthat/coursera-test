@@ -1,0 +1,58 @@
+body {
+	font-size: 16px;
+	color: #123456;
+	background-color: #111111;
+	font-family: 'Dosis' sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+
+	background-color: #23df23;
+	border-radius:0;
+	border:0;
+}
+
+.navbar-brand {
+	font-size: 1.2em;
+	float: left;
+	
+}
+
+.navbar-brand h1 {
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover navbar-brand a:focus {
+	text-decoraton:none;
+}
+
+#nav-list {
+	margin-top: 10px;
+	background-color: #991245;
+}
+
+#nav-list li {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px;
+
+}
+
+#main-content h2{
+	text-transform:uppercase;
+	color: #ffffff;
+}
+
+#menu-item {
+	padding: 25px;
+	height: 1000px;
+	background-color: #234455;
+	color: #dddddd;
+}
+
